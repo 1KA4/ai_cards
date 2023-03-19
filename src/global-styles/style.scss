@@ -1,0 +1,22 @@
+/// Main Styles File
+/// Here we import all the global Styles files we need for our project.
+
+@import "styles/normalize.scss";
+@import "styles/root.scss";
+@import "styles/fonts.scss";
+@import "src/pages/home-page/styles/home-page.scss";
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--color-primary);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+  color: var(--color-primary-text);
+}
