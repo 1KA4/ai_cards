@@ -2,6 +2,7 @@
   "name": "ai-cards",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://1ka4.github.io/ai_cards",
   "author": "1KA4",
   "scripts": {
     "predeploy" : "npm run build",
